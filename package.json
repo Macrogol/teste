@@ -1,0 +1,27 @@
+{
+  "name": "ip-tracker-backend",
+  "version": "1.0.0",
+  "description": "Servidor proxy simples para API de geolocalização de IP",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "ip",
+    "tracker",
+    "backend",
+    "node.js",
+    "express",
+    "proxy"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.7" 
+    },
+  "engines": {
+    "node": "18.x" 
+    }
+}
